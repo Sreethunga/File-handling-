@@ -51,6 +51,7 @@ while True:
         case "5":
             print("removing the file")
             file=input("enter the file name atlast once:")
+            fname.close()
             path='d:\sree 1st bca'
             file=os.remove(file+'.txt')
             print('______________________________________________')
